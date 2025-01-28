@@ -254,7 +254,7 @@ let config = {};
     }
 
     function updateCanonicalLink(url) {
-        document.getElementById('canonicalLink').setAttribute('href', `https://www.yourdomain.com${url}`);
+        document.getElementById('canonicalLink').setAttribute('href', `https://jblog.axcora.com${url}`);
     }
 
     function searchPosts() {
