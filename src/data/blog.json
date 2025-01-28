@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "title": "Installation",
+    "description": "How to Download JBLOG Project",
+    "image": "/img/jblog-json-blog.webp",
+    "content": "<img src='/img/jblog-json-blog.webp' width='100%' height='100%' alt='JSON BLOG Documentation'/><h2>How to work with JSON Blog JBLOG</h2><p>We make it 3 versions, Static HTML Version, Node Version, and PHP version, you can choose it according to your needs in developing the project.</p><p>Click Next Pagination to see next documentation</p>",
+    "tags": ["installation", "getstarted"]
+  },
+  {
+    "id": 2,
+    "title": "JBlog Node Version",
+    "description": "Installation JBLOG Node Version Project",
+    "image": "/img/jblos.webp",
+    "content": "<img src='/img/jblos.webp' width='100%' height='100%' alt='JSON BLOG Node version installation'/><h2>JBLog Node JS Version Installation</h2><p>For Node Js you can clone or fork it on our github repo<br/>Open terminal and run this command</p><pre><code>git clone https://github.com/mesinkasir/jblog.git</code></pre></p><p>For the node version, you can run it on a node server, or build it in production mode and upload it to your hosting.</p><p>Run this project on your local device <pre><code>npm install && npm run build && npm start</code></pre></p><p>Now you can open <code>localhost:3000</code> on your web browser.</p><p>Make sure after you have update run <pre><code>npm run build</code></pre> and next you can run built version via <pre><code>npm run server</code></pre>",
+    "tags": ["installation", "nodejs"]
+  },
+  {
+    "id": 3,
+    "title": "JBlog PHP Version",
+    "description": "How to install JSON Blog JBLOG Project PHP version",
+    "image": "/img/jblo.webp",
+    "content": "<img src='/img/jblo.webp' width='100%' height='100%' alt='JSON BLOG PHP installation'/><h2>How to work and install JSON Blog JBLOG PHP Version</h2><p>For PHP version you can use composer , create new project folder in to <code>xampp/htdocs</code> folder ,then open terminal and run command.</p><pre><code>composer create-project creativitas/jblog-php</pre></code><p>Run your web server LAMPP , WAMPP , XAMPP etc, and access your project</p>",
+    "tags": ["installation", "PHP"]
+  },
+  {
+    "id": 4,
+    "title": "JBLOG Static HTML",
+    "description": "Download JBLOG HTML Version Project",
+    "image": "/img/jblogjsonblog.webp",
+    "content": "<img src='/img/jblogjsonblog.webp' width='100%' height='100%' alt='JSON BLOG PHP installation'/><h2>JBLog HTML Stactic Version</h2><p>If you want to use static HTML, then JBlog HTML is the best choice for you.</p><p>You can download the static HTML version directly. then upload in to your hosting.<br/><a href='https://creativitaz.gumroad.com/l/jblog-html' class='btn-post no'>Download HTML Version</a></p>",
+    "tags": ["installation", "HTML", "static"]
+  },
+  {
+    "id": 5,
+    "title": "JBlog Configuration",
+    "description": "First setup your JSON Blog Project",
+    "image": "/img/jlog.webp",
+    "content": "<img src='/img/jlog.webp' width='100%' height='100%' alt='JSON BLOG First Setup'/><h2>Configuration and Setup JSON Blog JBLOG</h2><p>Before starting blogging, you can set up your site, to update the navbar menu, number of blog posts, and various other needs.</p><p>Access the data folder, then open the config.json file, then change the site name to match your site name, default image for Twitter card and opengraph image needs, then menu navigation, and the number of posts to be displayed on your blog list.</p><p>Next you can access on <code>src/index.js</code> for node version - then update in this line code <pre><code>function updateCanonicalLink</code></pre></p><p>Change domain with your domain for canoncial SEO Needs</p>",
+    "tags": ["configuration", "setup"]
+  },
+  {
+    "id": 6,
+    "title": "Update Home Page",
+    "description": "How to update homr page JSON Blog JBlog Project",
+    "image": "/img/jbl.webp",
+    "content": "<img src='/img/jbl.webp' width='100%' height='100%' alt='JSON BLOG update home page'/><h2>Home Page Update JSON Blog JBLOG</h2><p>To start, we can update the home page, you can access the data folder, and open the home.json file, then change it according to your needs there. such as changing the title, description, and content of the article.</p>",
+    "tags": ["home", "homepage"]
+  },
+  {
+    "id": 7,
+    "title": "Static Page",
+    "description": "How to Create new static page JBLOG Project",
+    "image": "/img/jblog-json-blog.webp",
+    "content": "<img src='/img/jblog-json-blog.webp' width='100%' height='100%' alt='JSON BLOG Documentation'/><h2>How to Create new static page JBLOG Project</h2><p>This project also provides static pages, which makes it easier for you to create static pages, such as about, contact and others.</p><p>To create a new static page, you simply create a new json file and save it in the folder, data, make sure to follow the existing format. <pre><code> 'title': 'Yout tite here', <br/>'description; 'description goes here..',<br/>'content': 'yourcontent.. you can also use html code'</code></pre></p><p>After creating a static page, you can integrate it with the navbar menu to access your static page. To edit and update a static page, simply select which static page file you want to change.</p>",
+    "tags": ["staticpage", "article"]
+  },
+  {
+    "id": 8,
+    "title": "Blog Post",
+    "description": "How to create and update blog post JSON Blog JBLOG Project",
+    "image": "/img/jblos.webp",
+    "content": "<img src='/img/jblos.webp' width='100%' height='100%' alt='JSON BLOG article post'/><h2>How to create and update blog post JSON Blog JBLOG Project</h2><p>After making the settings and creating a static page, you are now ready to create an article blog.</p><p>Access to <code>data/blog.json</code> there you can open the file, and then start to create an article, make sure the ID is sequential to make it easier for you, then fill in the title, description, and enter the article content, in the article content you can also embed the HTML code there.</p>",
+    "tags": ["blog","post", "article"]
+  },
+  {
+    "id": 9,
+    "title": "Deploy to Node Server",
+    "description": "You can run your JBlog JSON Blog project in to Node Host",
+    "image": "/img/jblo.webp",
+    "content": "<img src='/img/jblo.webp' width='100%' height='100%' alt='JSON BLOG Deploy in to Node js'/><h2>Run and Deploy in to Node js Host</h2><p>Make sure you use JBLOG Node version.,To run into Node Js server, you can simply create a new node js app, next you can input start with npm start, then start your node application.</p>",
+    "tags": ["deploy", "nodeapp", "run"]
+  },
+  {
+    "id": 10,
+    "title": "Deploy to Static Host",
+    "description": "How to run on Jblog in to static host",
+    "image": "/img/jblos.webp",
+    "content": "<img src='/img/jblos.webp' width='100%' height='100%' alt='JSON BLOG Deploy in to static host'/><h2>Run and Deploy in to Static Host</h2><p>Make sure you use JBLOG Node version.,To run into Static Modern Host server such vercel, <a href='https://netlify.com'>netlify</a>, or cloudflare, you can push your project in to your github repo, then integrate with netlify and deploy it, in build command you can input <code>npm run build</code>, and for build prodcution you can input <code>dist</code> folder..</p>",
+    "tags": ["deploy", "static", "run" , "cloudflare" , "vercel" , "netlify"]
+  },
+  {
+    "id": 10,
+    "title": "Deploy to PHP Host",
+    "description": "How to run JBLOG Json Blog Project in to PHP host",
+    "image": "/img/jbl.webp",
+    "content": "<img src='/img/jbl.webp' width='100%' height='100%' alt='JSON BLOG Documentation'/><h2>How to run JBLOG Json Blog Project in to PHP host</h2><p>To run and deploy in to PHP hosting , you can use JBlog PHP version or Jblog Static HTML version, just upload in to your project, and your site is live</p>",
+    "tags": ["html", "php"]
+  }
+]
+
