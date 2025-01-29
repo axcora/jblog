@@ -12,7 +12,7 @@
     "title": "JBlog Node Version",
     "description": "Installation JBLOG Node Version Project",
     "image": "/img/jblos.webp",
-    "content": "<img src='/img/jblos.webp' width='100%' height='100%' alt='JSON BLOG Node version installation'/><h2>JBLog Node JS Version Installation</h2><p>For Node Js you can clone or fork it on our github repo<br/>Open terminal and run this command</p><pre><code>git clone https://github.com/mesinkasir/jblog.git</code></pre></p><p>For the node version, you can run it on a node server, or build it in production mode and upload it to your hosting.</p><p>Run this project on your local device <pre><code>npm install && npm run build && npm start</code></pre></p><p>Now you can open <code>localhost:3000</code> on your web browser.</p><p>Make sure after you have update run <pre><code>npm run build</code></pre> and next you can run built version via <pre><code>npm run server</code></pre>",
+    "content": "<img src='/img/jblos.webp' width='100%' height='100%' alt='JSON BLOG Node version installation'/><h2>JBLog Node JS Version Installation</h2><p>For Node Js you can open terminal and run this command <br/><pre><code>npx jblog-x</code></pre><br/>If you want to install with your project name you can run <pre><code>npx jblog-x myproject</pre></cpde></p><p>Next step you can access your project folder and run this command <br/><pre><code>cd myproject && npm run build && npm start</pre></code><br/>Open <code>localhost:7000</code> on your web browser.</p><p>Make sure after you have update your project run <pre><code>npm run build</code></pre> and next you can run built version via <pre><code>npm run server</code></pre>",
     "tags": ["installation", "nodejs"]
   },
   {
@@ -20,7 +20,7 @@
     "title": "JBlog PHP Version",
     "description": "How to install JSON Blog JBLOG Project PHP version",
     "image": "/img/jblo.webp",
-    "content": "<img src='/img/jblo.webp' width='100%' height='100%' alt='JSON BLOG PHP installation'/><h2>How to work and install JSON Blog JBLOG PHP Version</h2><p>For PHP version you can use composer , create new project folder in to <code>xampp/htdocs</code> folder ,then open terminal and run command.</p><pre><code>composer create-project creativitas/jblog-php</pre></code><p>Run your web server LAMPP , WAMPP , XAMPP etc, and access your project</p>",
+    "content": "<img src='/img/jblo.webp' width='100%' height='100%' alt='JSON BLOG PHP installation'/><h2>How to work and install JSON Blog JBLOG PHP Version</h2><p>For PHP version you can use JBlog PHP Version , create new project folder in to <code>xampp/htdocs</code> folder ,<p>Run your web server LAMPP , WAMPP , XAMPP etc, and access your project</p><p>Download JBlog PHP version and upload in to your host or in to your htdocs</p><p><a href='https://creativitaz.gumroad.com/l/jblog-html' class='btn-post no'>Download JBlog Now</a></p>",
     "tags": ["installation", "PHP"]
   },
   {
@@ -36,7 +36,7 @@
     "title": "JBlog Configuration",
     "description": "First setup your JSON Blog Project",
     "image": "/img/jlog.webp",
-    "content": "<img src='/img/jlog.webp' width='100%' height='100%' alt='JSON BLOG First Setup'/><h2>Configuration and Setup JSON Blog JBLOG</h2><p>Before starting blogging, you can set up your site, to update the navbar menu, number of blog posts, and various other needs.</p><p>Access the data folder, then open the config.json file, then change the site name to match your site name, default image for Twitter card and opengraph image needs, then menu navigation, and the number of posts to be displayed on your blog list.</p><p>Next you can access on <code>src/index.js</code> for node version - then update in this line code <pre><code>function updateCanonicalLink</code></pre></p><p>Change domain with your domain for canoncial SEO Needs</p>",
+    "content": "<img src='/img/jlog.webp' width='100%' height='100%' alt='JSON BLOG First Setup'/><h2>Configuration and Setup JSON Blog JBLOG</h2><p>Before starting blogging, you can set up your site, to update the navbar menu, number of blog posts, and various other needs.</p><p>Access the data folder, then open the <code>config.json</code> file, then change the site name to match your site name, default image for Twitter card and opengraph image needs, then menu navigation, and the number of posts to be displayed on your blog list.</p><p>Next you can access on <code>src/index.js</code> for node version - then update in this line code <pre><code>function updateCanonicalLink(url) {<br/>document.getElementById('canonicalLink').setAttribute('href', `https://yourdomainhere.com${url}`);<br/>}</code></pre></p><p>Change domain with your domain for canoncial SEO Needs</p>",
     "tags": ["configuration", "setup"]
   },
   {
