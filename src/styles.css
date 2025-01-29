@@ -2,6 +2,7 @@
  body { 
  font-family: "Ubuntu", serif;
  font-size: 20px;
+ word-wrap: break-word;
  line-height: 1.7em;
  max-width: 900px;padding:0 ;margin:auto; background-color:#F4F3AA;color:#30322B;}
 nav { 
@@ -30,11 +31,14 @@ nav a:hover { border-bottom: solid 2px #1B1D21}
 button:disabled { opacity: 0.5; cursor: not-allowed; }
 .page { padding: 25px; margin-top: -16px;}
 .page h1 {font-size: 5vw;font-weight:bold; text-shadow: 1px 3px #fff;text-align:center;}
-.content-post {padding: 18px; border: solid 1px; border-radius: 8px;}
+.content-post {padding: 18px; border: solid 1px; border-radius: 8px;word-wrap: break-word;}
 .btn-post {background-color: #30322B; color:#ECECD2; padding: 12px; border-radius:8px; font-size:18px;}
 .no {text-decoration:none;}
-pre {background-color:#30322B; padding:5px; border: solid 2px #000; color:white; border-radius:5px; padding-left:8px; font-size:14px;}
+pre {background-color:#30322B; padding:5px; border: solid 2px #000; color:white; border-radius:5px; padding-left:8px; font-size:14px;word-wrap: break-word;}
 .btn-pag,button{border: solid 1px;font-size:18px; background-color:#30322B; padding:3px; color: #fff; border-radius:8px;}
 .stags {padding:8px;}
 .pags {display: flex;justify-content: center; padding: 20px;}
 img,iframe {max-width:100%; border-radius:8px; border: solid 1px; padding: 5px;}
+@media only screen and (max-width: 600px) {
+body,.btn-post {font-size: 14px;word-wrap: break-word;}
+}

@@ -2,7 +2,8 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const HOST = process.env.HOST || 'localhost';
+const PORT = process.env.PORT || 7000;
 
 app.use(express.static(path.join(__dirname, 'dist')));
 
@@ -11,6 +12,6 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`JBlog is running 🚀 access http://${HOST}:${PORT}`);
 });
 
